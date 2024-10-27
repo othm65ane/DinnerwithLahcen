@@ -1,5 +1,3 @@
-// import project1 from "../assets/hero0.jpeg"
-import { motion } from "framer-motion";
 const sh = () => {
      const PROJECTS = [
         {

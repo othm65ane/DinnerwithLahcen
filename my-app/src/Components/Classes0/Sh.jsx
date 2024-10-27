@@ -42,9 +42,11 @@ const sh = () => {
   return (
            <div className=" pb-4 ">
             <div className='h-[40vh] flex justify-center items-center flex-col text-center py-8'>
-          <h1 className='font-semibold lg:text-4xl text-2xl'>ch<span className='text-[#97BE5A]'>oo</span>se  a Classe</h1>
+          <h1 className='font-semibold lg:text-4xl text-2xl mb-12'>Classes not Available Now <br />
+            <h1>Soon ... </h1>
+          </h1>
         </div>
-            <div>{PROJECTS.map((projects , index) => (
+            {/* <div>{PROJECTS.map((projects , index) => (
     <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
         <motion.div 
         initial={{opacity : 0 , x : -100}}
@@ -78,7 +80,7 @@ const sh = () => {
     
     
             ))}
-            </div>
+            </div> */}
            </div>
   );
 };

@@ -80,7 +80,7 @@ const classes = () => {
   </div>
   <div class="p-4 text-center">
    <Link
-                onClick={() => window.location.assign("/sh")}
+                onClick={() => window.location.assign("/")}
    
       class="bg-[#97BE5A] text-white rounded-full px-8 py-2 hover:bg-green-700 focus:outline-none focus:shadow-outline-green active:bg-green-800"
     >

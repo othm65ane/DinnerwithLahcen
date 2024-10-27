@@ -4,7 +4,7 @@ import Home from "./Components/HeroSection/Home";
 import About from "./components/About";
 import Classes from "./Components/Classes";
 import Events from "./Components/Events ";
-import Sh from "./Components/Classes0/Sh";
+// import Sh from "./Components/Classes0/Sh";
 import Footer from "./components/Footer";
 import PrivateChef from "./components/Classes0/PrivateChef";
 // import Contact from "./components/Contact";
@@ -23,7 +23,7 @@ const App = () => {
         <Route path="about" element={<About />}  />
         <Route path="classes" element={<Classes />}  />
         <Route path="event" element={<Events />}  />
-        <Route path="sh" element={<Sh />}  />
+        {/* <Route path="sh" element={<Sh />}  /> */}
         <Route path="private" element={<PrivateChef />}  />
         </Routes>
       <Footer />
